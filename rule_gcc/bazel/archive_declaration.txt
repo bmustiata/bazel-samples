@@ -1,0 +1,6 @@
+archive = rule(  # <1>
+  implementation = _archive,  # <2>
+  attrs = {  # <3>
+    "files": attr.label_list(allow_files=True),  # <4>
+  }
+)

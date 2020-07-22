@@ -1,0 +1,14 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //:db (0 packages loaded, 0 targets configured)
+INFO: Analyzed target //:db (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 2] [Prepa] Action db.cfg
+INFO: From Action db.cfg:
+JDBC is jdbc:postgresql://localhost/test  <1>
+Target //:db up-to-date:
+  bazel-bin/db.cfg
+INFO: Elapsed time: 0.389s, Critical Path: 0.07s
+INFO: 1 process: 1 linux-sandbox.
+INFO: Build completed successfully, 2 total actions
+INFO: Build completed successfully, 2 total actions

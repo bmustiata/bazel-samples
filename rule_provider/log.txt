@@ -1,0 +1,13 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //:print (0 packages loaded, 0 targets configured)
+DEBUG: /home/raptor/learn/projects/bazel-book/code/rule_provider/bazel/print_count.bzl:5:3: struct(count = 4) <1>
+DEBUG: /home/raptor/learn/projects/bazel-book/code/rule_provider/bazel/print_count.bzl:8:3: Count is 4
+INFO: Analyzed target //:print (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+Target //:print up-to-date (nothing to build) <2>
+INFO: Elapsed time: 0.097s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+INFO: Build completed successfully, 1 total action

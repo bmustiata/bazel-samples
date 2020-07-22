@@ -1,0 +1,4 @@
+bazel-bin
+bazel-out
+bazel-rule_gcc
+bazel-testlogs

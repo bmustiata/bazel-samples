@@ -1,0 +1,27 @@
+$ bazel query "deps(//project:data)" --output package
+@bazel_tools//src/conditions
+@bazel_tools//src/main/cpp/util
+@bazel_tools//src/main/native/windows
+@bazel_tools//src/tools/launcher
+@bazel_tools//src/tools/launcher/util
+@bazel_tools//third_party/def_parser
+@bazel_tools//tools/build_defs/cc/whitelists/parse_headers_and_layering_check
+@bazel_tools//tools/cpp
+@bazel_tools//tools/def_parser
+@bazel_tools//tools/jdk
+@bazel_tools//tools/launcher
+@local_config_cc//
+@local_jdk//
+@maven//
+@remote_java_tools_darwin//
+@remote_java_tools_darwin//java_tools/zlib
+@remote_java_tools_linux//
+@remote_java_tools_linux//java_tools/zlib
+@remote_java_tools_windows//
+@remote_java_tools_windows//java_tools/zlib
+@rules_jvm_external//private/templates
+@rules_jvm_external//settings
+bazel/archive
+external
+project
+version

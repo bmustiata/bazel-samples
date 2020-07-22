@@ -1,0 +1,13 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //:print (0 packages loaded, 0 targets configured)
+DEBUG: /home/raptor/learn/projects/bazel-book/code/rule_print_context/bazel/print_ctx.bzl:2:3: ["action", "actions", "aspect_ids", "attr", "bin_dir", "build_file_path", "build_setting_value", "check_placeholders", "configuration", "coverage_instrumented", "created_actions", "default_provider", "disabled_features", "empty_action", "executable", "expand", "expand_location", "expand_make_variables", "experimental_new_directory", "features", "file", "file_action", "files", "fragments", "genfiles_dir", "host_configuration", "host_fragments", "info_file", "label", "new_file", "outputs", "resolve_command", "resolve_tools", "rule", "runfiles", "split_attr", "target_platform_has_constraint", "template_action", "tokenize", "toolchains", "var", "version_file", "workspace_name"]
+INFO: Analyzed target //:print (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+[0 / 1] [Prepa] BazelWorkspaceStatusAction stable-status.txt
+Target //:print up-to-date:
+  bazel-bin/out
+INFO: Elapsed time: 0.093s, Critical Path: 0.00s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+INFO: Build completed successfully, 1 total action

@@ -1,0 +1,26 @@
+# tag::all[]
+# tag::implementation[]
+def _archive(ctx):
+  # tag::declare_file[]
+  out = ctx.actions.declare_file(ctx.label.name)
+  # end::declare_file[]
+  # tag::args[]
+  args = ctx.actions.args()
+
+  args.add(out)
+  args.add_all(ctx.files.files)
+  # end::args[]
+
+  # tag::execute[]
+  ctx.actions.run(
+    executable="zip",  # <1>
+    arguments=[args],  # <2>
+    inputs=ctx.files.files,  # <3>
+    outputs=[out])  # <4>
+  # end::execute[]
+
+  # tag::return[]
+  return [DefaultInfo(files=depset([out]))]
+  # end::return[]
+# end::implementation[]
+# end::all[]

@@ -1,0 +1,6 @@
+digraph mygraph {
+  node [shape=box];
+  "//project:data"
+  "//project:data" -> "//project:users.txt\n//project:groups.txt\n//version:data.txt"
+  "//project:users.txt\n//project:groups.txt\n//version:data.txt"
+}

@@ -1,0 +1,15 @@
+# tag::all[]
+load("//:bazel/download_url.bzl", "download_url")
+
+# tag::index-germanium[]
+download_url(
+  name="index-germanium",
+  url="http://germaniumhq.com/",
+)
+# end::index-germanium[]
+
+download_url(
+  name="index-google",
+  url="https://google.com/",
+)
+# end::all[]

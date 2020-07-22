@@ -1,0 +1,4 @@
+bazel-*
+.idea
+target
+output

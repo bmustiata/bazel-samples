@@ -1,0 +1,8 @@
+$ bazel query "deps(out.zip)" --output label_kind
+archive rule //:out.zip
+source file //:src/README.md
+link rule //:link
+compile rule //:compile
+source file //:src/print.h
+source file //:src/print.c
+source file //:src/main.c

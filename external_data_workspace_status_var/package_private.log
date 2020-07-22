@@ -1,0 +1,10 @@
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //:status (0 packages loaded, 0 targets configured)
+ERROR: /home/raptor/learn/projects/bazel-book/code/external_data_workspace_status_var/BUILD:3:1: in status rule //:status: target '//vars:STABLE_GIT_COMMIT' is not visible from target '//:status'. Check the visibility declaration of the former target if you think the dependency is legitimate
+ERROR: /home/raptor/learn/projects/bazel-book/code/external_data_workspace_status_var/BUILD:3:1: in status rule //:status: target '//vars:CURRENT_TIME' is not visible from target '//:status'. Check the visibility declaration of the former target if you think the dependency is legitimate
+ERROR: Analysis of target '//:status' failed; build aborted: Analysis of target '//:status' failed
+INFO: Elapsed time: 0.078s
+INFO: 0 processes.
+FAILED: Build did NOT complete successfully (0 packages loaded, 0 targets configured)
+FAILED: Build did NOT complete successfully (0 packages loaded, 0 targets configured)
